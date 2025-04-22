@@ -1,5 +1,10 @@
 # Собираем плагин postgresql для qt (standalone mode)
 
+Собираем не так как описано в инструкции (там нужны все исходники `qtbase`).
+На всякий случай [ссылка](https://doc.qt.io/qt-6/sql-driver.html#qpsql-for-postgresql-version-7-3-and-above) на инструкцию, которой не следуем.
+
+В итоге собираем, используя `./build.sh`
+
 Мне понадобилось:
 - все-таки поставить пакет `qtbase5-dev`
 - поставить `libpq-dev`
